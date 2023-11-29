@@ -218,7 +218,7 @@ void cargarUsuarioArchivo()
     mkdir("datos");                     //  Crea la carpeta "datos" si no existe
     mkdir("datos\\datoUsuario");        //  Crea la carpeta "datoUsuario" dentro de "datos" si no existe
 
-    FILE * archivo = fopen(archivoUsuarios, "w+b");
+    FILE * archivo = fopen(archivoUsuarios, "ab");
     stUsuario usuarioAux;
 
 
